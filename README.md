@@ -2,7 +2,6 @@
 
 Proyecto desarrollado con Vite + React + Typescript
 
-## Ejecución
+## Ejecución remota en Vercel
 
-Ejecutar npm i para instalar las dependencias
-Ejecutar npm run dev para
+> https://vercel.com/guido-perez-moros-projects/heroes-app
