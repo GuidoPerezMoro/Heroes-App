@@ -1,0 +1,50 @@
+.containerHeroDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  height: 100vh; /* Asegurar que ocupe toda la altura de la ventana */
+  padding: 2rem; /* Añadir padding para un mejor espaciado */
+  text-align: center; /* Centrar el texto */
+}
+
+.containerImgHeroDetail {
+  padding: 0.4rem;
+}
+
+.containerImgHeroDetail img {
+  border-radius: 0.4rem;
+  max-width: 100%; /* Asegurar que la imagen no se desborde */
+  height: auto; /* Mantener la proporción de la imagen */
+}
+
+.titleHeroDetail {
+  padding: 3vh;
+}
+
+.itemHeroDetail {
+  padding: 1vh;
+}
+
+.buttonHeroDetail {
+  margin-top: 2vh;
+  background-color: var(
+    --primary-color
+  ); /* Usar la variable CSS para el color primario */
+  color: var(
+    --button-text-color
+  ); /* Usar la variable CSS para el color del texto del botón */
+  border: none;
+  padding: 0.75rem 1.5rem; /* Ajustar el padding para que el botón sea más grande */
+  font-size: 1rem; /* Aumentar el tamaño de la fuente */
+  border-radius: 0.5rem; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.buttonHeroDetail:hover {
+  background-color: var(
+    --primary-dark-color
+  ); /* Usar la variable CSS para un color primario más oscuro */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
+}
